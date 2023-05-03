@@ -1,0 +1,35 @@
+.banner-area{
+    height: auto;
+    top:80px;
+    position: relative;
+   
+}   
+
+.custom-shape-divider-bottom-1681232266 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1681232266 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 107px;
+}
+
+.custom-shape-divider-bottom-1681232266 .shape-fill {
+    fill: #FFFFFF;
+}
+
+#usermain{
+    font-family: 'Carter One', cursive;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+}

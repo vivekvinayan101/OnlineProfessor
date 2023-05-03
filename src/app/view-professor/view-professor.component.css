@@ -1,0 +1,51 @@
+.custom-shape-divider-bottom-1681232266 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1681232266 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 107px;
+}
+
+.custom-shape-divider-bottom-1681232266 .shape-fill {
+    fill: #FFFFFF;
+}
+
+#wave{
+    background-image: linear-gradient(to right, hsl(218, 56%, 55%), hsl(219, 35%, 62%));
+}
+
+.testimonial-card .card-up {
+    height: 120px;
+    overflow: hidden;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+  }
+  .testimonial-card .avatar {
+    width: 110px;
+    margin-top: -60px;
+    overflow: hidden;
+    border: 3px solid #fff;
+    border-radius: 50%;
+  }
+
+  .content{
+    border: none;
+    background-color:hsl(219, 50%, 76%);
+    border-radius: 60px;
+    padding: 20px;
+  }
+
+  .this{
+    width: 30px;
+    height: 30px;
+    
+  }

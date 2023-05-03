@@ -1,0 +1,135 @@
+<div >
+    <div class="banner-area">
+        <img src="https://i.postimg.cc/vZCLJ42y/portrait-smiling-nostalgic-female-student-looking-upper-left-corner-holding-notebooks.jpg" style="width: 100%; height: auto; padding-bottom: 2px;" alt="">
+        <div *ngIf="name" id="user" class="top-left mt-5 "><h1>Welcome {{name}}</h1></div>
+        <div class="custom-shape-divider-bottom-1681232266">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<section class="py-5 mt-5 container text-center">
+
+    
+    <div class="card mb-3 mt-5" style="width: 100%;">
+        <div class="row g-0" style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
+          <div class="col-lg-6 col-md-12">
+            <img src="https://i.postimg.cc/nh6DwvsK/young-woman-attend-courses-girl-student-studying-holding-notebooks-showing-thumb-up-approval-recomme.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <div class="card-body">
+              <h3 class="card-title" id="div1">OnlineProfessor</h3>
+              <p class="card-text mt-5 fs-5">Welcome to OnlineProfessor, where learning never stops! We provide a wide range of courses and programs designed to meet your educational needs, from primary school to advanced professional development. Our website offers a user-friendly interface that allows you to access educational resources from anywhere in the world. Our expert instructors and dedicated support team are here to help you every step of the way. Join us today and discover the joy of learning online!.</p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    
+</section>
+
+<!-- <section class="my-5 container text-center mt-5">
+    <div class="row mt-5 container text-center">
+
+        <div class="col-lg-3 col-md-3">
+            <div class="card" style="width: 19rem;">
+                <img src="https://i.postimg.cc/NFH2nCcY/2341228.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+        </div>
+
+        <div class="col-lg-3 col-md-3">
+            <div class="card" style="width: 19rem;">
+                <img src="https://i.postimg.cc/d0ZFrbmq/2358668.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+        </div>
+
+        <div class="col-lg-3 col-md-3 ">
+            <div class="card" style="width: 19rem;">
+                <img src="https://i.postimg.cc/DwgJRbtW/42698.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+        </div>
+
+        <div class="col-lg-3 col-md-3">
+            <div class="card" style="width: 19rem;">
+                <img src="https://i.postimg.cc/jSZ40j9j/7521744.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+        </div>
+
+
+    </div>
+</section> -->
+
+<section class="py-5 container text-center" *ngIf="name">
+
+<h3>Professors</h3>
+
+<!-- <form class="d-flex" role="search">
+  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+  <button class="btn btn-outline-success" type="submit">Search</button>
+</form> -->
+    <div  class="container px-4 px-lg-5 mt-5">
+        <div class="row gx-4 gx-lg-5 row text-center container">
+            <div *ngFor="let i of professorList" class="col-lg-4 col-md-6 col-sm-12 mb-5 p-3 container text-center">
+                <a href="viewProfessor/{{i.id}}" style="text-decoration: none; color: black; ">
+                  <div class="card container mb-5" id="cardmain" style="width: 300px; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; border: 2px solid hsl(219, 50%, 76%);">
+                      <!-- Product image-->
+                      <img class="container mt-5" src="{{i.image}}" alt="..." style="width:280px; height: 280px;" />
+                      <!-- Product details-->
+                      <div class="card-body p-4">
+                          <div class="text-center">
+                              <!-- Product name-->
+                              <h5 style="font-family: 'Noto Sans', sans-serif;" class="fw-bolder">{{i.name}}</h5>
+                              <!-- Product price-->
+                              <h5 style="font-family: 'Noto Sans', sans-serif;">{{i.subject}}</h5>
+                             <div class="row">
+                               <div class="col-lg-6 rounded-pill container " style="border: 1px solid hsl(219, 50%, 76%);"><p>₹{{i.fees}}/class</p></div>
+                               <div class="col-lg-6 rounded-pill container "style="border: 1px solid hsl(219, 50%, 76%);"><p>Free Trial</p></div>
+                              </div>
+                          </div>
+                      </div>
+                      
+                  </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div *ngIf="!(name)" class="container text-center mb-5">
+  <div class="card text-center container" style="margin-top: 100px; width: 50%; border: 2px solid  hsl(219, 50%, 76%); border-radius: 30px; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
+    
+    <div class="card-body">
+      <h5 class="card-title">Oops! Access Denied</h5>
+      <p class="card-text">You need to Login, to see more.</p>
+      <a href="login" class="btn text-white" style="background-color:hsl(218, 26%, 55%);">Log In</a>
+    </div>
+   
+  </div>
+</div>

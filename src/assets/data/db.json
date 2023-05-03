@@ -1,0 +1,472 @@
+{
+    "professors": [
+        {
+            "id": 1,
+            "name": "Emily john",
+            "image": "https://i.postimg.cc/Y9zcxZk8/urban-portrait-brunette-woman-23-2148728638.jpg",
+            "subject": "Mathematics",
+            "personalDescription": "I am an Assistant Professor, I have completed M.Sc. in mathematics from the School of studies, Ujjain, I have completed B.Sc. computer science, I did my schooling from S.M.H.S., School with a score of 95/100 in math in 12th board and 96/100 in 10th board, I qualified GATE MA with score 411, I got 1st prize in competition GANITAGYA organized by S.M.H.S., I have a great command over mathematics. I will try my best to solve each problem you have regarding the subject.",
+            "aboutLesson": "Mathematics is not just about numbers, equations, or algorithms:it is about understanding the concepts clearly.",
+            "fees": "1500/hr",
+            "reviews": [
+                {
+                    "name": "Harry",
+                    "date": "19-12-2022",
+                    "rating": "4",
+                    "comment": "Emily is one of the best Math Tutors, She Keeps a tab on student performance periodically and informs parents which area is required for hard work. She is flexible and able to adapt to the needs and interests of your students. This means she is open to changing your lesson plan or approach if necessary to better meet their needs."
+                },
+                {
+                    "name": "Rahul",
+                    "date": "24-10-2022",
+                    "rating": "4",
+                    "comment": "Emily has a great setup for online lessons. They made sure I was comfortable and had all the necessary materials. My math grades improved dramatically, especially in Real, Algebra and Calculus. All thanks to Anusha"
+                },
+                {
+                    "name": "Elizabeth",
+                    "date": "16-08-2022",
+                    "rating": "5",
+                    "comment": "Emily has a great setup for online lessons. They made sure I was comfortable and had all the necessary materials. My math grades improved dramatically, especially in Real, Algebra and Calculus. All thanks to Emily"
+                }
+            ],
+            "schedule": {
+                "Monday": "9:30 am - 11:30 am",
+                "Tuesday": "9:30 am - 11:30 am",
+                "Wednesday": "9:30 am - 11:30 am",
+                "Thursday": "1:30 pm - 15:30 pm",
+                "Friday": "1:30 pm - 15:30 pm"
+            }
+        },
+        {
+            "id": 2,
+            "name": "James Harper",
+            "image": "https://i.postimg.cc/fTRg0kPV/portrait-modern-man.jpg",
+            "subject": "Mathematics",
+            "personalDescription": "I am a Statistician, completed the M.Sc. in Statistics from University of Chicago and did B.Sc.(Hons.) from the same. I was first rank holder in my college during graduation with a score of 9.28CGPA. I also scored 94.25% (Best four) in class 12 and 10.0CGPA in class 10.",
+            "aboutLesson": "Provide teaching assistance in Statistics to graduation students and Mathematics for classes upto 12",
+            "fees": "2000/hr",
+            "reviews": [
+                {
+                    "name": "Ishaan",
+                    "date": "10-10-2022",
+                    "rating": "5",
+                    "comment": "I'm in love with the way he teaches, makes you understand the problem well and helps in finding the solution. His approach and talent make him stand apart from other tutors. Highly recommended!!"
+                },
+                {
+                    "name": "David",
+                    "date": "13-6-2022",
+                    "rating": "5",
+                    "comment": "Sir is a true intellect ...the way he deliver’s his knowledge everyone in the room get’s it very easily...earlier I wasn’t much confident but when I started taking classes from him he makes it very easier for me his ideas are very innovative & effective...he’s a genius professor...!!"
+                },
+                {
+                    "name": "Tina",
+                    "date": "17-9-2022",
+                    "rating": "4",
+                    "comment": "James sir is very brilliant person and a good teacher because he knows the way of teaching ,he also a very good learner . A great personality with lots of knowledge. He can understand excitability and tactility of the student."
+                }
+            ],
+            "schedule": {
+                "Monday": "9:30 am - 11:30 am",
+                "Tuesday": "9:30 am - 11:30 am",
+                "Wednesday": "9:30 am - 11:30 am",
+                "Thursday": "1:30 pm - 15:30 pm",
+                "Friday": "1:30 pm - 15:30 pm"
+            }
+        },
+        {
+            "id": 3,
+            "name": "Julia Robert",
+            "image": "https://i.postimg.cc/ZKsMS3cT/front-view-business-woman-suit.jpg",
+            "subject": "Mathematics",
+            "personalDescription": "I am a mathematics teacher with 9 years of teaching experience . I have done my masters (gold medalist) and teacher training in mathematics and I can handle students according to their understanding capability . I believe in developing teacher student bond which encourages student to put his doubts and points more comfortably and eliminates their hesisation in asking questions.",
+            "aboutLesson": "Build a bond with mathematics and let your mind thrive.I can help students in understanding basic concepts and tricks that makes maths easy and fun.",
+            "fees": "2500",
+            "reviews": [
+                {
+                    "name": "Lily",
+                    "date": "08-04-2021",
+                    "rating": "4",
+                    "comment": "Classes with Julia have been so worth .Her amazing tricks and unique techniques convinced my daughter to embrace mathematics .I think she was the best decision for my kid"
+                },
+                {
+                    "name": "Kevin",
+                    "date": "12-6-2021",
+                    "rating": "4",
+                    "comment": "Julia ma’am is an amazing teacher who goes through concepts thoroughly and ensures that the student understands the topic before moving on. She is also very efficient with completing topics and delves deeper into the topic. Thank you, ma’am for teaching me math!"
+                },
+                {
+                    "name": "Rohan",
+                    "date": "26-02-2022",
+                    "rating": "5",
+                    "comment": "Julia is very dedicated and focused with her students. She works very hard with the children both academically and emotionally strengthening to achieve the targets."
+                }
+            ],
+            "schedule": {
+                "Monday": "9:30 am - 11:30 am",
+                "Tuesday": "9:30 am - 11:30 am",
+                "Wednesday": "9:30 am - 11:30 am",
+                "Thursday": "1:30 pm - 15:30 pm",
+                "Friday": "1:30 pm - 15:30 pm"
+            }
+        },
+        {
+            "id": 4,
+            "name": "Charles McKenzie",
+            "image": "https://i.postimg.cc/vZjkW9gP/close-up-portrait-man-looking-camera-outdoors.jpg",
+            "subject": "Physics",
+            "personalDescription": "I am a physics teacher with 6 years of teaching experience. I have done my masters in Physics from Harvard University. I am very passionate about Physics and my goal is to make sure that my students enjoy the subject as much as i enjoy it.",
+            "aboutLesson": "Physics is tough for you? No worries! All fears will go with excellent lessons in Physics with 24X7 support.",
+            "fees": "1500",
+            "reviews": [
+                {
+                    "name": "Jason",
+                    "date": "22-03-2022",
+                    "rating": "4",
+                    "comment": "He has good explanation for the concepts in Physics and clears all the doubts. He is trustworthy and makes friendly interaction during teaching"
+                },
+                {
+                    "name": "Rose",
+                    "date": "15-05-2022",
+                    "rating": "5",
+                    "comment": "Charles is very educational and friendly. He was able to put our son in confidence very quickly, which allowed our son to feel at ease and to take part in the conversation with gluttony and interest. Our son came out of his first session delighted with the prospect of the next sessions. Great experience! Charles is a remarkable teacher for his pedagogy, his contact, and his open-mindedness. The courses are structured and progressive, adapted to the student's level."
+                },
+                {
+                    "name": "Rithwik",
+                    "date": "18-08-2022",
+                    "rating": "4",
+                    "comment": "Everytime I encounter Charles I always feel supported, included and encouraged. He is a positive and joyful person who loves to lift people up and help them grow. He is also inspiring and friendly."
+                }
+            ],
+            "schedule": {
+                "Monday": "9:30 am - 11:30 am",
+                "Tuesday": "9:30 am - 11:30 am",
+                "Wednesday": "9:30 am - 11:30 am",
+                "Thursday": "1:30 pm - 15:30 pm",
+                "Friday": "1:30 pm - 15:30 pm"
+            }
+        },
+        {
+            "id": 5,
+            "name": "Niharika Prakash",
+            "image": "https://i.postimg.cc/057Cn4rR/close-up-portrait-woman-with-beautiful-hair-closed-eyes.jpg",
+            "subject": "Physics",
+            "personalDescription": "I am a MSc. RANK HOLDER in Physics & BEd. in Physical Science, Passed Kerala SET & Karnataka TET. I have given tuitions to school going children. I am fluent in English, Kannada and Malayalam. My specialty is creative teaching (including more activities) than just writing.My teaching method is a combination of pragmatism and idealistic approach. It is child centered and utilitarian. I intend to teach by providing many examples and numerical than just reading theory.",
+            "aboutLesson": "Learn online physics and save your time and do better in your life",
+            "fees": "2000",
+            "reviews": [
+                {
+                    "name": "Xavier",
+                    "date": "19-11-2022",
+                    "rating": "4",
+                    "comment": "Niharika has great knowledge and qualifications to teach the younger generation. Niharika could make learning fun along with good understanding of the concepts with her impressive communication."
+                },
+                {
+                    "name": "Salman",
+                    "date": "11-07-2022",
+                    "rating": "5",
+                    "comment": "Knowing knowledge is not enough for a good teacher. A good teachers must have a skill like Caring, loving, sharing knowledge, way of teaching .. All these skills I saw in Niharika.. So she is good teacher.. .."
+                },
+                {
+                    "name": "Mrunal",
+                    "date": "08-01-2022",
+                    "rating": "5",
+                    "comment": "She is one of the best instructor I know. A passionate learner and loving teacher for her students. Good explanation skill :)"
+                }
+            ],
+            "schedule": {
+                "Monday": "9:30 am - 11:30 am",
+                "Tuesday": "9:30 am - 11:30 am",
+                "Wednesday": "9:30 am - 11:30 am",
+                "Thursday": "1:30 pm - 15:30 pm",
+                "Friday": "1:30 pm - 15:30 pm"
+            }
+        },
+        {
+            "id": 6,
+            "name": "Tracy Davies",
+            "image": "https://i.postimg.cc/9MkFq15L/portrait-smiling-young-woman-against-brown-background.jpg",
+            "subject": "Chemistry",
+            "personalDescription": "I am a Masters degree holder in Chemistry, and I am very passionate about teaching. I have been conducting online classes for 4 years. I am eager to help the students in need with my knowledge. I enjoy parting knowledge to others so that they can appreciate Chemistry like I do",
+            "aboutLesson": "Are you struggling to grasp the concepts of Chemistry? Lets change that together.",
+            "fees": "2500",
+            "reviews": [
+                {
+                    "name": "Daphne",
+                    "date": "04-05-2022",
+                    "rating": "4",
+                    "comment": "Miss Tracy is a wonderful teacher and has been very easy to communicate with. She explains every topic in detail with atmost patience."
+                },
+                {
+                    "name": "Ginny",
+                    "date": "14-06-2022",
+                    "rating": "5",
+                    "comment": "Tracy is a very patient and dedicated teacher. She makes sure the concepts are clear before moving on to the next topic. She also run regular test and revision sessions. I've improved a lot under her guidance."
+                },
+                {
+                    "name": "Ron",
+                    "date": "24-12-2022",
+                    "rating": "4",
+                    "comment": "Tracy is great at explaining concepts, she is nice and patient and has a lot of determination when it comes to clearing the concepts. Her communication skills are excellent and she is very friendly."
+                }
+            ],
+            "schedule": {
+                "Monday": "9:30 am - 11:30 am",
+                "Tuesday": "9:30 am - 11:30 am",
+                "Wednesday": "9:30 am - 11:30 am",
+                "Thursday": "1:30 pm - 15:30 pm",
+                "Friday": "1:30 pm - 15:30 pm"
+            }
+        },
+        {
+            "id": 7,
+            "name": "Walter White",
+            "image": "https://i.postimg.cc/FsCzt9nM/smiley-man-wearing-headphones.jpg",
+            "subject": "Chemistry",
+            "personalDescription": "I am a Chemistry teacher with 6 years of teaching experience. I have done my masters in Chemistry from Harvard University. I am very passionate about Chemistry and my goal is to make sure that my students enjoy the subject as much as i enjoy it.",
+            "aboutLesson": "Are you struggling to grasp the concepts of Chemistry? Lets change that together.",
+            "fees": "3000",
+            "reviews": [
+                {
+                    "name": "Harry",
+                    "date": "15-06-2022",
+                    "rating": "5",
+                    "comment": "He is a very thoughtful teacher who puts a lot of thought into how he presents the material. His lessons were engaging, useful, and he was very patient with everyone in class always encouraging his students to try. I would highly recommend him to anyone interested in learning."
+                },
+                {
+                    "name": "Dean",
+                    "date": "21-10-2022",
+                    "rating": "5",
+                    "comment": "Harish is one of the most trustworthy and worthy teachers i know. His immense devotion to his part of teaching is simply a quality all teachers must have for better learning experience. His teaching is a two way process, complete understanding and learning is ensured in his classes !!!"
+                },
+                {
+                    "name": "Hannah",
+                    "date": "31-12-2022",
+                    "rating": "5",
+                    "comment": "He is hard working never lets his students down. His explanation is simple and very relevant. He adjusts the pace of the class as per my level of understanding"
+                }
+            ],
+            "schedule": {
+                "Monday": "9:30 am - 11:30 am",
+                "Tuesday": "9:30 am - 11:30 am",
+                "Wednesday": "9:30 am - 11:30 am",
+                "Thursday": "1:30 pm - 15:30 pm",
+                "Friday": "1:30 pm - 15:30 pm"
+            }
+        },
+        {
+            "id": 8,
+            "name": "Susan James",
+            "image": "https://i.postimg.cc/fTdzPxm9/portrait-smiley-woman.jpg",
+            "subject": "English",
+            "personalDescription": "I have been an outstanding student in English throughout my school which probably resulted in me loving this subject the most and getting into teaching the same. It's been 3 years since I am into teaching this beautiful subject to kids from kindergarten to intermediate level. ",
+            "aboutLesson": "English Graduate gives tuitions to school kids for all classes in English Language and Literature",
+            "fees": "1500",
+            "reviews": [
+                {
+                    "name": "Paxton",
+                    "date": "13-05-2022",
+                    "rating": "4",
+                    "comment": "She is very friendly, Excellent teacher and lot of improvement all the areas like writing Essays , vocabulary.My son is really Enjoyed English class . I. truly recommend Susan, Thank you"
+                },
+                {
+                    "name": "Kyle",
+                    "date": "20-08-2022",
+                    "rating": "4",
+                    "comment": "I had a workshop with her and she was really amazing, she was so supporting and co-operating, need more people like her who can actually bring confidence in you and take you up, I would most highly recommend her ...."
+                },
+                {
+                    "name": "Apoorva",
+                    "date": "17-11-2022",
+                    "rating": "4",
+                    "comment": "She is funny,cool,and awesome! She connects with you throughout the class with funny exercises to keep us motivated in acting . She is the best acting teacher ."
+                }
+            ],
+            "schedule": {
+                "Monday": "9:30 am - 11:30 am",
+                "Tuesday": "9:30 am - 11:30 am",
+                "Wednesday": "9:30 am - 11:30 am",
+                "Thursday": "1:30 pm - 15:30 pm",
+                "Friday": "1:30 pm - 15:30 pm"
+            }
+        },
+        {
+            "id": 9,
+            "name": "Tiffany Stanner",
+            "image": "https://i.postimg.cc/1XrHRvjj/portrait-woman-with-curly-hair.jpg",
+            "subject": "English",
+            "personalDescription": "I have been an outstanding student in English throughout my school which probably resulted in me loving this subject the most and getting into teaching the same. It's been 3 years since I am into teaching this beautiful subject to kids from kindergarten to intermediate level. ",
+            "aboutLesson": "English Graduate gives tuitions to school kids for all classes in English Language and Literature",
+            "fees": "2000",
+            "reviews": [
+                {
+                    "name": "Calvin",
+                    "date": "22-02-2022",
+                    "rating": "4",
+                    "comment": "She is hardworking, very patient and sweet. Her classes are amazing will definitely recommend her."
+                },
+                {
+                    "name": "Gabriel",
+                    "date": "20-06-2022",
+                    "rating": "5",
+                    "comment": "Her method of teaching is so good. You'll learn a lot in just few classes. She makes her students very comfortable for asking questions and tries her best to make sessions more interactive and fun."
+                },
+                {
+                    "name": "Taylor",
+                    "date": "15-09-2022",
+                    "rating": "4",
+                    "comment": "She is passionate, sincere. Her teaching methods is simple and understandable. She makes more comfortable with topics and situation. Time is also flexible"
+                }
+            ],
+            "schedule": {
+                "Monday": "9:30 am - 11:30 am",
+                "Tuesday": "9:30 am - 11:30 am",
+                "Wednesday": "9:30 am - 11:30 am",
+                "Thursday": "1:30 pm - 15:30 pm",
+                "Friday": "1:30 pm - 15:30 pm"
+            }
+        },
+        {
+            "id": "",
+            "name": "",
+            "image": "",
+            "subject": "",
+            "personalDescription": "",
+            "aboutLesson": "",
+            "fees": "",
+            "reviews": [
+                {
+                    "name": "",
+                    "date": "",
+                    "rating": "",
+                    "comment": ""
+                },
+                {
+                    "name": "",
+                    "date": "",
+                    "rating": "",
+                    "comment": ""
+                },
+                {
+                    "name": "",
+                    "date": "",
+                    "rating": "",
+                    "comment": ""
+                }
+            ],
+            "schedule": {
+                "Monday": "9:30 am - 11:30 am",
+                "Tuesday": "9:30 am - 11:30 am",
+                "Wednesday": "9:30 am - 11:30 am",
+                "Thursday": "1:30 pm - 15:30 pm",
+                "Friday": "1:30 pm - 15:30 pm"
+            }
+        },
+        {
+            "id": "",
+            "name": "",
+            "image": "",
+            "subject": "",
+            "personalDescription": "",
+            "aboutLesson": "",
+            "fees": "",
+            "reviews": [
+                {
+                    "name": "",
+                    "date": "",
+                    "rating": "",
+                    "comment": ""
+                },
+                {
+                    "name": "",
+                    "date": "",
+                    "rating": "",
+                    "comment": ""
+                },
+                {
+                    "name": "",
+                    "date": "",
+                    "rating": "",
+                    "comment": ""
+                }
+            ],
+            "schedule": {
+                "Monday": "9:30 am - 11:30 am",
+                "Tuesday": "9:30 am - 11:30 am",
+                "Wednesday": "9:30 am - 11:30 am",
+                "Thursday": "1:30 pm - 15:30 pm",
+                "Friday": "1:30 pm - 15:30 pm"
+            }
+        },
+        {
+            "id": "",
+            "name": "",
+            "image": "",
+            "subject": "",
+            "personalDescription": "",
+            "aboutLesson": "",
+            "fees": "",
+            "reviews": [
+                {
+                    "name": "",
+                    "date": "",
+                    "rating": "",
+                    "comment": ""
+                },
+                {
+                    "name": "",
+                    "date": "",
+                    "rating": "",
+                    "comment": ""
+                },
+                {
+                    "name": "",
+                    "date": "",
+                    "rating": "",
+                    "comment": ""
+                }
+            ],
+            "schedule": {
+                "Monday": "9:30 am - 11:30 am",
+                "Tuesday": "9:30 am - 11:30 am",
+                "Wednesday": "9:30 am - 11:30 am",
+                "Thursday": "1:30 pm - 15:30 pm",
+                "Friday": "1:30 pm - 15:30 pm"
+            }
+        },
+        {
+            "id": "",
+            "name": "",
+            "image": "",
+            "subject": "",
+            "personalDescription": "",
+            "aboutLesson": "",
+            "fees": "",
+            "reviews": [
+                {
+                    "name": "",
+                    "date": "",
+                    "rating": "",
+                    "comment": ""
+                },
+                {
+                    "name": "",
+                    "date": "",
+                    "rating": "",
+                    "comment": ""
+                },
+                {
+                    "name": "",
+                    "date": "",
+                    "rating": "",
+                    "comment": ""
+                }
+            ],
+            "schedule": {
+                "Monday": "9:30 am - 11:30 am",
+                "Tuesday": "9:30 am - 11:30 am",
+                "Wednesday": "9:30 am - 11:30 am",
+                "Thursday": "1:30 pm - 15:30 pm",
+                "Friday": "1:30 pm - 15:30 pm"
+            }
+        }
+    ]
+}

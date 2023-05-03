@@ -1,0 +1,75 @@
+<!-- Section: Design Block -->
+<section class="background-radial-gradient overflow-hidden mt-5">
+
+  <div style="position: relative; min-height: 20vh;" id="wave">
+   
+    <div class="custom-shape-divider-bottom-1681232266">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+      </svg>
+  </div>
+  </div>
+  
+  <div class="container px-4 py-5 px-md-5 text-center text-lg-start my-5">
+    <div class="row gx-lg-5 align-items-center mb-5">
+      <div class="col-lg-6 mb-5 mb-lg-0" style="z-index: 10;">
+        <h1 class="my-5 display-5 fw-bold ls-tight" style="color: hsl(220, 30%, 70%)">
+          The best offer <br />
+          <span style="color: hsl(218, 56%, 55%)">Start Learning And Embrace New Skills For The Better Future</span>
+        </h1>
+        <p class="mb-4 opacity-70" style="color: hsl(219, 35%, 62%)">
+          With the help of OnlineProfessor create your own path and drive on your skills on your own to achieve what you seek.
+        </p>
+      </div>
+  
+        <div class="col-lg-6 mb-5 mb-lg-0 position-relative">
+          <div id="radius-shape-1" class="position-absolute rounded-circle shadow-5-strong"></div>
+          <div id="radius-shape-2" class="position-absolute shadow-5-strong"></div>
+  
+          <div class="card">
+            <div class="card-body px-4 py-5 px-md-5 text-light">
+              <h3 class="container text-center">OnlineProfessor</h3>
+              <form [formGroup]="LoginForm" (ngSubmit)="login()">
+                <!-- 2 column grid layout with text inputs for the first and last names -->
+                
+  
+                <!-- Email input -->
+                <div class="form-outline mb-4 mt-5">
+                  <input formControlName="email" name="email" type="email" id="form3Example3" class="form-control"/>
+                  <div *ngIf="this.LoginForm.get('email')?.errors && this.LoginForm.get('email')?.touched">
+                    <p class="text-danger">enter valid email</p>
+                 </div>
+                  <label class="form-label" for="form3Example3">Email address</label>
+                </div>
+  
+                <!-- Password input -->
+                <div class="form-outline mb-4">
+                  <input type="password" formControlName="password" name="password" id="form3Example4" class="form-control" />
+                  <div *ngIf="this.LoginForm.get('password')?.errors && this.LoginForm.get('password')?.touched">
+                    <p class="text-danger">enter characters & numbers only</p>
+                 </div>
+                  <label class="form-label" for="form3Example4">Password</label>
+                </div>
+  
+                
+  
+                <!-- Submit button -->
+                <div class="container text-center">
+                  <button type="submit" class="btn btn-light btn-block mb-4" style="color:hsl(218, 56%, 55%) ;">
+                    Sign In
+                  </button>
+                </div>
+
+                <div class="container text-center">
+                  Not yet registered? <a href="register">Sign Up</a>
+                </div>
+  
+                
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section: Design Block -->

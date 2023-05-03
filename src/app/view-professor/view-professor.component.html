@@ -1,0 +1,137 @@
+<div>
+  <div style="position: relative; min-height: 20vh; margin-top: 100px;" id="wave">
+
+    <div class="custom-shape-divider-bottom-1681232266">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path
+          d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+          class="shape-fill"></path>
+      </svg>
+    </div>
+  </div>
+
+
+  <section style="margin-top: 100px;">
+    <div class="row container">
+
+      <div class="col-lg-6 col-md-6 mt-5">
+        <div class="card container"
+          style="width: 18rem; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;  background-color: hsl(219, 50%, 76%);">
+          <img src="{{profData.image}}" class="card-img-top rounded-circle p-2" alt="...">
+          <div class="card-body text-light">
+            <h5 class="card-title">{{profData.name}}</h5>
+            <p class="card-text">{{profData.subject}}</p>
+            <p class="card-text">₹ {{profData.fees}} per class</p>
+            <div class="container row">
+              <button type="button" class="btn btn-light mb-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Class Schedule
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content" style="background:  hsl(219, 50%, 76%);">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Schedule</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body" style="background:  hsl(219, 50%, 76%);">
+                      <ul class="list-group text-light">
+                        <li class="list-group-item text-light" style="background:  hsl(219, 50%, 76%);">Monday: {{profData.schedule[0].Monday}}</li>
+                        <li class="list-group-item text-light" style="background:  hsl(219, 50%, 76%);">Tuesday: {{profData.schedule[0].Tuesday}}</li>
+                        <li class="list-group-item text-light" style="background:  hsl(219, 50%, 76%);">Wednesday :{{profData.schedule[0].Wednesday}}</li>
+                        <li class="list-group-item text-light" style="background:  hsl(219, 50%, 76%);">Thursday :{{profData.schedule[0].Thursday}}</li>
+                        <li class="list-group-item text-light" style="background:  hsl(219, 50%, 76%);">Friday :{{profData.schedule[0].Friday}}</li>
+
+                      </ul>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
+                Book a Class
+              </button>
+
+              <!-- Modal -->
+              <div class="modal text-dark" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false"
+                tabindex="-1" aria-labelledby="staticBackdropLabel1" aria-hidden="true" >
+                <div class="modal-dialog" >
+                  <div class="modal-content" style="background-color: white;">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="staticBackdropLabel1">Booking Confirmation</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p>After the booking is completed your information along with your Mail Id will be given to the Professor, who via E-mail will contact you for more discussions & scheduling. <br>
+                      Do You wish to Continue?</p>
+                    </div>
+                    <div class="text-center container mb-4">
+                      
+                      <button type="button" (click)="bookClass()" class="btn text-light" style="background: linear-gradient( hsl(218, 56%, 55%), hsl(219, 35%, 62%));;">Yes, Confirm Booking</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 mb-5 mt-5" style="height:auto; ">
+        <div class="container">
+          <div>
+            <h3 style="color: hsl(218, 56%, 55%);" class="mb-3">{{profData.aboutLesson}}</h3>
+          </div>
+
+          <div class="content mb-3"><div class="container" >
+          <img class="this" src="https://i.postimg.cc/s2y5Jjj2/silver-medal.png"  alt=""><h2 class="text-light">Ambassador</h2>
+          </div>
+          <div class="text-light"><p>One of our best tutors. Quality profile, experience in their field, verified qualifications and a great response time. {{profData.name}} will be happy to arrange your first Maths class.</p></div></div>
+
+          <div>
+            <h3 style="color: hsl(218, 56%, 55%);">About {{profData.name}}</h3>
+            <p>{{profData.personalDescription}}</p>
+          </div>
+
+          
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="bg-glass p-5">
+    <h5>Reviews</h5>
+    <section>
+
+    
+      <div class="row text-center d-flex align-items-stretch">
+        <div *ngFor="let i of profData.reviews" class="col-md-4 mb-5 mb-4 md-0 d-flex align-items-stretch">
+          <div class="card testimonial-card">
+            <div class="card-up" style="background-image: linear-gradient( hsl(218, 56%, 55%), hsl(219, 35%, 62%));"></div>
+            <div class="avatar mx-auto bg-white">
+              <img src="https://i.postimg.cc/ZqYdXw1P/user-1.png"
+                class="rounded-circle img-fluid" />
+            </div>
+            <div class="card-body">
+              <h4 class="mb-4">{{i["name"]}}</h4>
+              <h6>{{i["date"]}}</h6>
+              <hr />
+              <p class="dark-grey-text mt-4">
+                <i class="fas fa-quote-left pe-2"></i>{{i["comment"]}}
+              </p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+  </div>
+
+  <!-- <ul *ngFor="let i of profData.reviews" class="list-group">
+    <li class="list-group-item">{{i["name"]}}</li>
+    <li class="list-group-item">{{i["date"]}}</li>
+    <li class="list-group-item">{{i["comment"]}}</li>
+  </ul> -->
